@@ -10,7 +10,7 @@ const puppeteer = require('puppeteer');
     }
   });
   const page = await browser.newPage();
-  await page.goto('http://jd.0550.com');
+  await page.goto('http://job.0550.com');
   await page.screenshot({
     path: 'job.png'
   });
